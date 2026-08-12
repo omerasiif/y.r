@@ -72,7 +72,7 @@ function App() {
       <header className={`site-header ${isScrolled ? 'site-header--scrolled' : ''}`}>
         <a className="brand" href="#home" onClick={closeMenu} aria-label="J Farmhouse home">
           <span className="brand-mark"><Leaf size={14} strokeWidth={1.8} /></span>
-          <span>J <em>Farmhouse</em></span>
+          <span>Y.R <em>Farmhouse</em></span>
         </a>
 
         <nav className="desktop-nav" aria-label="Main navigation">
@@ -109,7 +109,7 @@ function App() {
           <div className="hero-overlay" />
           <div className="hero-content page-width">
             <div className="eyebrow eyebrow--light"><span /> Private Farmhouse</div>
-            <h1>J <i>Farmhouse</i></h1>
+            <h1>Y.R <i>Farmhouse</i></h1>
             <p className="hero-tagline">Your private escape <br className="mobile-break" /> into nature.</p>
             <p className="hero-copy">Relax, reconnect, and create unforgettable moments in a peaceful private setting surrounded by nature.</p>
             <div className="hero-actions">
@@ -124,7 +124,7 @@ function App() {
         <section className="intro section-pad" id="about">
           <div className="intro-inner page-width">
             <div className="intro-visual">
-              <div className="intro-label eyebrow"><span /> Welcome to J Farmhouse</div>
+              <div className="intro-label eyebrow"><span /> Welcome to Y.R Farmhouse</div>
               <img className="intro-photo" src={introPhoto} alt="BTS Farmhouse surrounded by nature" loading="lazy" />
             </div>
             <div className="intro-copy">
@@ -138,7 +138,7 @@ function App() {
         <section className="highlights section-pad" id="amenities">
           <div className="page-width">
             <div className="section-heading">
-              <div className="eyebrow"><span /> The J feeling</div>
+              <div className="eyebrow"><span /> The Y.R feeling</div>
               <p>Thoughtful space for easy days, shared laughter, and lasting memories.</p>
             </div>
             <div className="highlight-grid">
@@ -166,7 +166,7 @@ function App() {
 
         <section className="marquee-section section-pad" id="gallery">
           <div className="marquee-intro page-width">
-            <div className="eyebrow"><span /> A glimpse of J farm</div>
+            <div className="eyebrow"><span /> A glimpse of Y.R farm</div>
             <h2>Moments worth <i>coming back for.</i></h2>
           </div>
           <div className="marquee-viewport" aria-label="Farmhouse photo gallery">
@@ -205,7 +205,7 @@ function App() {
           <div className="footer-brand">
             <a className="brand brand--footer" href="#home">
               <span className="brand-mark"><Leaf size={14} strokeWidth={1.8} /></span>
-              <span>J <em>Farmhouse</em></span>
+              <span>Y.R <em>Farmhouse</em></span>
             </a>
             <p>Your private escape into nature.</p>
           </div>
@@ -217,7 +217,7 @@ function App() {
             <h3>Get in touch</h3>
             <span><MapPin size={15} /> Location details coming soon</span>
             <a href="tel:+0000000000"><Phone size={15} /> Phone details coming soon</a>
-            <a href="mailto:hello@btsfarmhouse.com"><MessageCircle size={15} /> hello@jfarmhouse.com</a>
+            <a href="mailto:hello@btsfarmhouse.com"><MessageCircle size={15} /> hello@Y.Rfarmhouse.com</a>
           </div>
         </div>
         <div className="footer-bottom page-width">
